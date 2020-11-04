@@ -1,0 +1,16 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.jumbotron {
+    height: 600px;
+    background-image: url(./assests/jumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
