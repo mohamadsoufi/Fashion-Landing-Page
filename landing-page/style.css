@@ -22,6 +22,22 @@
     font-size: 50px;
 }
 
+.card {
+    box-shadow: 5px 6px 11px 3px rgba(0, 0, 0, 0.342);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 7px 13px 5px rgba(0, 0, 0, 0.623);
+}
+
+.card img {
+    height: 400px;
+    object-fit: cover;
+}
+
 .contact-us-form-overlay {
     position: fixed;
     top: 0;
