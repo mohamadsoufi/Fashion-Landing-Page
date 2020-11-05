@@ -19,4 +19,8 @@
     $(".contact-us-form-overlay").on("click", function (e) {
         $("#collapseContactForm").toggle();
     });
+
+    $("form").submit(function (e) {
+        e.preventDefault();
+    });
 })();

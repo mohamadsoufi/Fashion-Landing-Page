@@ -1,10 +1,7 @@
 # An e-commerce landing page.
 
----
-
 ## Technologies used:
 
--   Js
 -   jQuery
 -   Bootstrap
 -   CSS
@@ -18,4 +15,4 @@
 
 ### note:
 
-I have built this landing page using these technologies because it's better for the SEO (Search engine optimization) to access the Html content, this way it's more likely to appear to the costumers in the search engine with unpaid priority ranking.
+To optimise the landing page for search engines (SEO) I built the project as a static page using html and JS(jQuery) , compared to client side frameworks such as React , this way it’s more likely to appear to the costumers in the search engine with unpaid priority ranking.
