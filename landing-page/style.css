@@ -14,3 +14,33 @@ body {
     background-size: cover;
     color: white;
 }
+
+.logo {
+    padding: 0;
+    margin: 0;
+    font-family: "Amatic SC", cursive;
+    font-size: 50px;
+}
+
+.contact-us-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+.contact-us-form-container {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 99;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer-right {
+    margin: auto 0;
+}
