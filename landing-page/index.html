@@ -54,94 +54,87 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="bg-light">
             <section class="jumbotron">
-                <h1 class="display-4">Welcome to our Store!</h1>
-                <p class="lead">
-                    This is a simple hero unit, a simple jumbotron-style
-                    component for calling extra attention to featured content or
-                    information.
-                </p>
-                <hr class="my-4" />
-                <p>
-                    It uses utility classes for typography and spacing to space
-                    content out within the larger container.
-                </p>
-                <a class="btn btn-primary btn-lg" href="#" role="button"
-                    >Purchase Now!</a
-                >
+                <div class="jumbo-content p-3">
+                    <h1 class="display-3">Welcome to our Store!</h1>
+                    <p class="h4">
+                        This is where we share our love for fashion with the
+                        best quality and prices.
+                    </p>
+                    <hr class="my-4" />
+                    <p class="h5 pb-5">
+                        You are welcome to chose from out collection of make
+                        your own design.
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button"
+                        >Purchase Now!</a
+                    >
+                </div>
             </section>
 
             <section class="container">
                 <div class="row">
                     <div class="card col-md-3 col-lg-3">
                         <img
-                            src="./assests/procuct1.jpg"
+                            src="./assests/product1.jpg"
                             class="card-img-top"
                             alt="product"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                            </p>
-                            <a href="#" class="btn btn-primary">View Product</a>
+                            <h5 class="card-title">Colorful</h5>
+
+                            <a href="#" class="btn btn-primary"
+                                >View Products</a
+                            >
                         </div>
                     </div>
                     <div class="card col-md-3 col-lg-3">
                         <img
-                            src="./assests/procuct1.jpg"
+                            src="./assests/product2.jpg"
                             class="card-img-top"
                             alt="product"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                            </p>
-                            <a href="#" class="btn btn-primary">View Product</a>
+                            <h5 class="card-title">Wise</h5>
+
+                            <a href="#" class="btn btn-primary"
+                                >View Products</a
+                            >
                         </div>
                     </div>
                     <div class="card col-md-3 col-lg-3">
                         <img
-                            src="./assests/procuct1.jpg"
+                            src="./assests/product3.jpg"
                             class="card-img-top"
                             alt="product"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                            </p>
-                            <a href="#" class="btn btn-primary">View Product</a>
+                            <h5 class="card-title">Happy</h5>
+
+                            <a href="#" class="btn btn-primary"
+                                >View Products</a
+                            >
                         </div>
                     </div>
                     <div class="card col-md-3 col-lg-3">
                         <img
-                            src="./assests/procuct1.jpg"
+                            src="./assests/product4.jpg"
                             class="card-img-top"
                             alt="product"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                            </p>
-                            <a href="#" class="btn btn-primary">View Product</a>
+                            <h5 class="card-title">Joy</h5>
+
+                            <a href="#" class="btn btn-primary"
+                                >View Products</a
+                            >
                         </div>
                     </div>
                 </div>
             </section>
 
-            <p class="d-flex justify-content-center p-4">
+            <p class="d-flex justify-content-center p-5 m-0">
                 <button
                     class="btn btn-success contact-us-btn"
                     type="button"
@@ -206,14 +199,48 @@
                 </div>
             </section>
         </main>
+        <section class="signup-form-container d-flex justify-content-center">
+            <img
+                class="signup-img"
+                src="./assests/product5.jpg"
+                alt="product"
+            />
+            <form class="p-4">
+                <h3 class="p-4">GET 30% DISCOUNT BY SIGNING UP!</h3>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Name</label>
+                        <input
+                            type="name"
+                            class="form-control"
+                            id="exampleInputName1"
+                            placeholder="Name"
+                        />
+                    </div>
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter email"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                        >We'll never share your email with anyone else.</small
+                    >
+                </div>
+
+                <button type="submit" class="btn btn-success">Sign Up</button>
+            </form>
+        </section>
         <footer
-            class="d-flex justify-content-center justify-content-lg-around border-top"
+            class="bg-light d-flex justify-content-around justify-content-lg-around border-top"
         >
             <a class="navbar-brand" href="#"
-                ><p class="logo text-dark">Tshirtify</p></a
+                ><p class="logo text-dark m-3">Tshirtify</p></a
             >
             <div class="d-flex footer-right">
-                <p>Copyright © Tshirtify</p>
+                <p class="m-3">Copyright © Tshirtify</p>
             </div>
         </footer>
 

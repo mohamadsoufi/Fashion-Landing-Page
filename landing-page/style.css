@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+.jumbo-content {
+    background-color: rgba(128, 128, 128, 0.596);
+}
+
 .logo {
     padding: 0;
     margin: 0;
@@ -41,6 +45,31 @@ body {
     margin: 0 auto;
 }
 
+.signup-form-container {
+    background-color: rgba(128, 128, 128, 0.301);
+    overflow: hidden;
+    z-index: 99;
+}
+
+.signup-img {
+    width: 180px;
+    height: 280px;
+    transform: rotate(-20deg);
+    position: fixed;
+    bottom: 135px;
+    z-index: -1;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+
 .footer-right {
     margin: auto 0;
+}
+
+@media (min-width: 992px) {
+    .signup-img {
+        left: 300px;
+        bottom: 144px;
+    }
 }
